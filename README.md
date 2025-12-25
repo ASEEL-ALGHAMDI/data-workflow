@@ -1,84 +1,93 @@
-\# Data Workflow Pipeline
+## Data Workflow Pipeline
 
-
+---
 
 A production-style data pipeline built during the AI Professionals Bootcamp.
 
+---
 
-
-\## Overview
+## Overview
 
 This project demonstrates an end-to-end data workflow:
 
-\- Raw CSV ingestion
+ Raw CSV ingestion
 
-\- Data cleaning and validation
+ Data cleaning and validation
 
-\- Analytics table generation
+ Analytics table generation
 
-\- Daily business metrics aggregation
-
-
-
-The pipeline is modular, reproducible, and designed with real-world data engineering practices.
+ Daily business metrics aggregation
 
 
 
-\## Pipeline Stages
+## The pipeline is modular, reproducible, and designed with real-world data engineering practices.
 
 
 
-\### Day 1 – Data Ingestion
+# Pipeline Stages
 
-\- Load raw CSV files
+---
 
-\- Validate schema
+## Day 1 – Data Ingestion
 
-\- Persist cleaned data as Parquet
+ Load raw CSV files
 
-\### Day 2 – Data Cleaning & Validation
-\- Handle missing values & incorrect types
-\- Convert date columns to datetime
-\- Normalize categorical fields (e.g., country, status)
-\- Remove invalid or empty rows
+ Validate schema
 
-\### Day 3 – Analytics Table
+ Persist cleaned data as Parquet\
+ 
+---
 
-\- Join orders with users safely
+## Day 2 – Data Cleaning & Validation
 
-\- Feature engineering (date parts)
+ Handle missing values & incorrect types
+ 
+ Convert date columns to datetime
+ 
+ Normalize categorical fields (e.g., country, status)
+ 
+ Remove invalid or empty rows
 
-\- Winsorization \& outlier detection
+---
 
-\- Output unified analytics table
+## Day 3 – Analytics Table
 
+ Join orders with users safely
 
+ Feature engineering (date parts)
 
-\### Day 4 – Metrics
+ Winsorization \& outlier detection
 
-\- Aggregate daily metrics
+ Output unified analytics table
 
-\- Revenue \& order counts
+---
 
-\- Outlier monitoring
+## Day 4 – Metrics
 
+ Aggregate daily metrics
 
+ Revenue \& order counts
 
-\### Day 5 – Production Readiness \& Repo Polish
+ Outlier monitoring
+
+---
+
+## Day 5 – Production Readiness \& Repo Polish
 
 Day 5 focused on preparing the project as a real portfolio asset:
 
-\- Final project clean-up, validation, and missing fixes
+ Final project clean-up, validation, and missing fixes
 
-\- Ensured all modules import cleanly and pipeline runs in fresh environments
+ Ensured all modules import cleanly and pipeline runs in fresh environments
 
-\- Added structured README for technical reviewers and hiring managers
+ Added structured README for technical reviewers and hiring managers
 
-\- Confirmed folders follow data engineering conventions (raw/processed/scripts/src)
+ Confirmed folders follow data engineering conventions (raw/processed/scripts/src)
+
+---
 
 
-
-\*Outcome:\* The project is now “portfolio-grade” and can be shared with employers, included in GitHub, or extended into Airflow/Prefect later.
+## Outcome: The project is now “portfolio-grade” and can be shared with employers, included in GitHub, or extended into Airflow/Prefect later.
 
 ---
 
