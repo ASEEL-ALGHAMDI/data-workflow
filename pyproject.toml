@@ -1,0 +1,19 @@
+[project]
+name = "data-workflow"
+version = "0.1.0"
+description = "Bootcamp Day 1 data workflow project"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.8",
+    "pandas>=2.3.3",
+    "pyarrow>=22.0.0",
+]
+
+[tool.uv]
+
+[dependency-groups]
+dev = [
+    "fastparquet>=2025.12.0",
+]
